@@ -1,0 +1,43 @@
+/*书籍部分css*/
+.book-part{
+	height: 600px;
+	width: 1350px;
+	left: 30px;
+	background-image: url('D:/布吉的编程啊/html/页面演示/一种首页/images/bg_img2.jpg');
+	background-size: 100%;
+/*	background-color: purple;*/
+	position: relative;
+}
+.booktable{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: verdana,arial,sans-serif;
+	font-size:20px;
+	color:#5b5b5b;
+	border-width: 10px;
+	border-color: pink;
+	border-collapse: collapse;
+	text-align: center;
+}
+.booktable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: pink;
+	background-color: yellow;
+}
+.booktable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color:#99ccff;
+	background-color: #ffffff;
+}
+.booktable td a{
+	font-size: 18px;
+}
+.booktable td li{
+	float: left;
+	list-style: none;
+}

@@ -1,0 +1,74 @@
+/*购买界面元素设置*/
+.import-part{
+	background-image:  url('D:/布吉的编程啊/html/页面演示/一种首页/images/bg_img6.jpg');
+/*background-image: url('D:/布吉的编程啊/html/页面演示/一种首页/images/bg_img1.jpg');*/
+	background-size: 100%;
+}
+
+.import-part h2{
+	text-align: center;
+	color: white;
+	letter-spacing: 8px;
+
+}
+.shoptable{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	font-family: verdana,arial,sans-serif;
+	font-size:20px;
+	color:#5b5b5b;
+	border-width: 10px;
+	border-color: pink;
+	border-collapse: collapse;
+}
+.shoptable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: pink;
+	background-color: yellow;
+}
+.shoptable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color:#99ccff;
+	background-color: #ffffff;
+}
+.am-num-text{
+	text-align: center;
+	width: 100px;
+	font-size: 18px;
+}
+
+.minus,
+.plus{
+	font-size: 18px;
+}
+
+.shoptable td a{
+	font-size: 18px;
+}
+.shoptable li{
+	list-style: none;
+	float: left;
+}
+.pricesum{
+	border:1px solid red;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.heji{
+	font-size: 18px;
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%,-80%);
+
+}
+.one-goods{
+	/*border: 3px solid red;*/
+}

@@ -1,0 +1,230 @@
+
+
+.w{/*版心公共类*/
+	width: 1260px;/*京东 的版心*/
+	margin: 0 auto; 
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*a的公共类设置*/
+a{
+	text-decoration: none;/*消除下划线*/
+	color: #999;
+	font-size: 13px;
+}
+a:hover {
+	color: #ff6700;
+}
+ul,h1,input { /*清理外边距*/
+	margin: 0;
+	padding: 0;/*初始化*/
+	list-style: none;/*清除小列表样式*/
+}
+input,button{
+	border: 0;
+	outline: none;/*取消轮廓边框*/
+}
+
+body{
+	background-color: #f6f6f6; 
+}
+
+.f10{/*公共样式表*/
+	color: #ff6700;
+}
+
+
+
+header{
+	height: 80px;
+	background-color: #020000;
+}
+
+/*快速导航栏begin*/
+.shortcut{
+	height: 31px;
+	line-height: 30px;
+	/*width: ;*/
+	background-color: #ededed;
+	border-bottom: 1px solid #bddddd;
+	font-size:13px;
+	color: #999;
+
+}
+.address{
+	margin-left: 200px;
+}
+
+.shortcut li{
+
+	float: left;
+
+}
+
+.space{ /*分割线*/
+	width: 1px;
+	height: 10px;
+	background-color: #cccccc;
+	margin: 10px 12px 0;/*上左右下*/
+}
+
+.us{
+	position: absolute;
+}
+.us img{
+	/*公众号图像*/
+	position: absolute;
+	left: -3px;
+	top: 25px;
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+
+/*快速导航栏end*/
+
+/*中间部分搜索begin*/
+.m-part{
+	height: 140px;
+	width: 1350px;/*1230px*/
+	left: 30px;
+	background-color: #66ccff;
+	position: relative;
+}
+.logo{
+	position: absolute;/*定位*/
+	top: -30px;
+	left: 0;
+
+	box-shadow: 2px 8px 8px rgba(0,0,0,.3);/*水平垂直阴影*/
+ 
+}
+.logo a{
+	display: block;
+	width: 190px;
+	height: 170px;
+/*	background: #fff;*/
+/*	background-image: url(images/logo.jpg);*/
+}
+
+.form{
+	width: 558px;
+	height: 35px;
+	background-color: gray;
+	position: absolute;/*全定位*/
+	top: 25px;
+	left: 340px;
+}
+.form input{
+	width: 498px;
+	height: 33px;
+	border: 2px solid #ff6700;
+	float: left;
+	font-size: 14px;
+	padding-left: 3px;
+}
+.form button{
+	width: 53px;
+	height: 37px;
+	background-color: #ff6700;
+	float: left;
+}
+.form button i{
+	color: #fff;
+	font-style: normal;
+	font-size: 24px;
+
+
+}
+
+.shop-car{
+	width: 188px;
+	height: 33px;
+	line-height: 33px;/*垂直居中*/
+/*	border: 1px solid #ff6700;*/
+	background-color: #fff;
+	position: absolute;
+	top: 26px;
+	right: 99px;
+	text-align: center;/*居中*/
+}
+.shop-car a{
+	
+	font-size: 13px;
+
+}
+.shop-car i{
+	color: #ff6700;
+	font-style: normal;
+}
+
+
+/*热点词*/
+.hotwords{
+	position: absolute;
+	top: 68px;
+	left: 340px;
+
+}
+.hotwords a{
+	margin-left: 15px;
+}
+.navitems{
+	width: 770px;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+/*	background-color: blue;*/
+	line-height: 40px;
+
+}
+.navitems li{
+	float: left; 
+	margin-left: 30px;/*词间距*/
+
+}
+.navitems li a{
+	font-size: 16px;
+	font-weight: 700;
+	color: #555555;
+
+}
+.navitems li a:hover {
+	color: #ff6700;
+}
+
+
+
+
+
+/*主体框架*/
+.import-part{
+	height: 600px;
+	width: 1350px;
+	left: 30px;
+	/*background-color: #ccc;*/
+	position: relative;
+}
+
+
+
+}
+
+/*底部*/
+.footer{
+	margin-top: 35px;
+	height: :500px;
+	background-color: blue;
+	position: relative;
+
+}
+.service{
+	height: 102px;
+	border-bottom: 1px solid #dedede;
+}
+
+
